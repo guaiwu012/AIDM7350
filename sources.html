@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synthetic Signals | Sources</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .source-hero {
+      display: grid;
+      grid-template-columns: 1.25fr 0.85fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .source-list-panel {
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .source-list-panel + .source-list-panel {
+      margin-top: 18px;
+    }
+
+    .source-list-panel h3 {
+      margin-bottom: 8px;
+    }
+
+    .source-list-panel h4 {
+      margin: 18px 0 10px;
+      color: var(--gold);
+      font-size: .95rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .ref-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .ref-list li {
+      margin-bottom: 14px;
+      color: #e0e6f2;
+      line-height: 1.75;
+    }
+
+    .ref-list a {
+      color: var(--cyan);
+      word-break: break-word;
+    }
+
+    .ref-note {
+      margin-top: 14px;
+      padding: 16px 18px;
+      border-radius: 14px;
+      background: rgba(255,215,106,.07);
+      border: 1px solid rgba(255,215,106,.18);
+      color: #e8edf7;
+    }
+
+    .jump-list a {
+      display: block;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255,255,255,.06);
+      color: var(--muted);
+    }
+
+    .jump-list a:first-child {
+      border-top: none;
+    }
+
+    .country-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    @media (max-width: 980px) {
+      .source-hero,
+      .country-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html#top">
+        <span class="brand-kicker">AIDM7350 / AI in Content Creation and Misinformation</span>
+        <span class="brand-name">SYNTHETIC SIGNALS</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links" aria-label="Section navigation">
+        <a href="index.html#sources">Home</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+        <a href="#section5">Section 5</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-pad" id="overview">
+      <div class="container source-hero">
+        <article class="hero-copy reveal visible">
+          <a class="back-link" href="index.html#sources">← Back to the main page</a>
+          <div class="eyebrow">Reference page</div>
+          <h1>Sources and <span>references</span></h1>
+          <p class="lead">
+            This page gathers the main references used across the website and organizes them by section.
+            It separates concept-oriented sources, media-and-research sources, and policy/legal sources.
+          </p>
+          <p>
+            For readability, the references are grouped into three parts:
+            Section 2 for concepts and case materials, Section 3 for research literature,
+            and Section 5 for policy and legal frameworks across Europe, China, and the United States.
+          </p>
+        </article>
+
+        <aside class="toc reveal visible">
+          <h3>On this page</h3>
+          <div class="jump-list">
+            <a href="#section2">Section 2 — Concepts and case sources</a>
+            <a href="#section3">Section 3 — Research literature</a>
+            <a href="#section5">Section 5 — Policy and legal frameworks</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-pad section-line" id="section2">
+      <div class="container response-stack">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Section 2</div>
+            <h2>Concepts and case sources</h2>
+          </div>
+          <p class="section-note">Academic literature, official reports, and websites used to frame the New Hampshire robocall case and the broader concept discussion.</p>
+        </div>
+
+        <article class="source-list-panel reveal">
+          <div class="panel-kicker">Academic literature</div>
+          <ol class="ref-list">
+            <li>
+              Campante, F. R., Durante, R., Hagemeister, F., &amp; Sen, A. (2025).
+              <em>GenAI misinformation, trust, and news consumption: Evidence from a field experiment</em>
+              (NBER Working Paper No. 34100). National Bureau of Economic Research.
+              <a href="https://doi.org/10.3386/w34100" target="_blank" rel="noopener noreferrer">https://doi.org/10.3386/w34100</a>
+            </li>
+            <li>
+              Chesney, R., &amp; Citron, D. K. (2019).
+              Deep fakes: A looming challenge for privacy, democracy, and national security.
+              <em>California Law Review, 107</em>, 1753–1819.
+            </li>
+            <li>
+              Schiff, K. J., Schiff, D. S., &amp; Bueno, N. S. (2024).
+              The liar’s dividend: Can politicians claim misinformation to evade accountability?
+              <em>American Political Science Review</em>, 1–20.
+              <a href="https://doi.org/10.1017/S0003055423001454" target="_blank" rel="noopener noreferrer">https://doi.org/10.1017/S0003055423001454</a>
+            </li>
+            <li>
+              Vaccari, C., &amp; Chadwick, A. (2020).
+              Deepfakes and disinformation: Exploring the impact of synthetic political video on deception, uncertainty, and trust in news.
+              <em>Social Media + Society, 6</em>(1), 1–13.
+              <a href="https://doi.org/10.1177/2056305120903408" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/2056305120903408</a>
+            </li>
+            <li>
+              Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., &amp; Wei, F. (2023).
+              Neural codec language models are zero-shot text to speech synthesizers [Preprint].
+              <em>arXiv</em>.
+              <a href="https://doi.org/10.48550/arXiv.2301.02111" target="_blank" rel="noopener noreferrer">https://doi.org/10.48550/arXiv.2301.02111</a>
+            </li>
+          </ol>
+        </article>
+
+        <article class="source-list-panel reveal">
+          <div class="panel-kicker">Official reports and websites</div>
+          <ol class="ref-list">
+            <li>
+              Coalition for Content Provenance and Authenticity. (2026).
+              <em>C2PA specifications 2.4</em>.
+              <a href="https://spec.c2pa.org/specifications/specifications/2.4/index.html" target="_blank" rel="noopener noreferrer">https://spec.c2pa.org/specifications/specifications/2.4/index.html</a>
+            </li>
+            <li>
+              Federal Communications Commission. (2024a, February 8).
+              <em>Implications of artificial intelligence technologies on protecting consumers from unwanted and illegal robocalls and robotexts</em> (FCC 24-17).
+              <a href="https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf" target="_blank" rel="noopener noreferrer">https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf</a>
+            </li>
+            <li>
+              Federal Communications Commission. (2024b, May 24).
+              <em>Steve Kramer: Notice of apparent liability for forfeiture</em> (FCC 24-59).
+              <a href="https://docs.fcc.gov/public/attachments/FCC-24-59A1.pdf" target="_blank" rel="noopener noreferrer">https://docs.fcc.gov/public/attachments/FCC-24-59A1.pdf</a>
+            </li>
+            <li>
+              Federal Communications Commission. (2024c, May 28).
+              <em>Lingo Telecom, LLC: Notice of apparent liability for forfeiture</em> (FCC 24-60).
+              <a href="https://docs.fcc.gov/public/attachments/FCC-24-60A1.pdf" target="_blank" rel="noopener noreferrer">https://docs.fcc.gov/public/attachments/FCC-24-60A1.pdf</a>
+            </li>
+            <li>
+              Federal Communications Commission. (2024d, September 30).
+              <em>Steve Kramer: Forfeiture order</em> (FCC 24-104).
+              <a href="https://docs.fcc.gov/public/attachments/FCC-24-104A1_Rcd.pdf" target="_blank" rel="noopener noreferrer">https://docs.fcc.gov/public/attachments/FCC-24-104A1_Rcd.pdf</a>
+            </li>
+            <li>
+              New Hampshire Department of Justice. (2024, February 6).
+              <em>Voter suppression AI robocall investigation update</em>.
+              <a href="https://www.doj.nh.gov/news-and-media/voter-suppression-ai-robocall-investigation-update" target="_blank" rel="noopener noreferrer">https://www.doj.nh.gov/news-and-media/voter-suppression-ai-robocall-investigation-update</a>
+            </li>
+            <li>
+              New Hampshire Department of Justice. (2024, May 23).
+              <em>Steven Kramer charged with voter suppression over AI-generated President Biden robocalls</em>.
+              <a href="https://www.doj.nh.gov/news-and-media/steven-kramer-charged-voter-suppression-over-ai-generated-president-biden-robocalls" target="_blank" rel="noopener noreferrer">https://www.doj.nh.gov/news-and-media/steven-kramer-charged-voter-suppression-over-ai-generated-president-biden-robocalls</a>
+            </li>
+            <li>
+              National Institute of Standards and Technology. (2024).
+              <em>Reducing risks posed by synthetic content: An overview of technical approaches to digital content transparency</em>
+              (NIST AI 100-4). U.S. Department of Commerce.
+              <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf</a>
+            </li>
+            <li>
+              UNESCO. (2024).
+              <em>Freedom of expression, artificial intelligence and elections</em>.
+              <a href="https://unesdoc.unesco.org/ark:/48223/pf0000393473" target="_blank" rel="noopener noreferrer">https://unesdoc.unesco.org/ark:/48223/pf0000393473</a>
+            </li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad" id="section3">
+      <div class="container response-stack">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Section 3</div>
+            <h2>Research literature</h2>
+          </div>
+          <p class="section-note">Sources used in the media-and-research section to explain detection limits, trust erosion, and governance implications.</p>
+        </div>
+
+        <article class="source-list-panel reveal">
+          <div class="panel-kicker">Research references</div>
+          <ol class="ref-list">
+            <li>
+              Chesney, R., &amp; Citron, D. (2019).
+              Deep fakes: A looming challenge for privacy, democracy, and national security.
+              <em>California Law Review, 107</em>(6), 1753–1820.
+            </li>
+            <li>
+              Dobber, T., Metoui, N., Trilling, D., Helberger, N., &amp; de Vreese, C. (2021).
+              Do (microtargeted) deep fakes erode trust in democracy?
+              <em>Internet Policy Review, 10</em>(4), 1–24.
+            </li>
+            <li>
+              Fallis, D. (2021).
+              The epistemic threat of deepfakes.
+              <em>Philosophy &amp; Technology, 34</em>(4), 623–643.
+            </li>
+            <li>
+              Groh, M., Epstein, Z., Picard, R., &amp; Picard, R. (2022).
+              Deepfake detection by human crowds, machines, and machine-informed crowds.
+              <em>Proceedings of the National Academy of Sciences, 119</em>(1), e2110013119.
+            </li>
+            <li>
+              Helberger, N., Eskens, S., &amp; van Drunen, M. (2022).
+              The European approach to artificial intelligence across the digital single market.
+              <em>Journal of Media Law, 14</em>(1), 1–30.
+            </li>
+            <li>
+              Kreps, S., &amp; Kriner, D. (2020).
+              The potential impact of emerging technologies on democratic representation.
+              <em>Journal of Democracy, 31</em>(3), 83–97.
+            </li>
+            <li>
+              Nightingale, S. J., &amp; Farid, H. (2022).
+              AI-synthesized faces are indistinguishable from real faces and more trustworthy.
+              <em>Proceedings of the National Academy of Sciences, 119</em>(8), e2120481119.
+            </li>
+            <li>
+              Vaccari, C., &amp; Chadwick, A. (2020).
+              Deepfakes and disinformation: Exploring the impact of synthetic political video on deception, uncertainty, and trust in news.
+              <em>Social Media + Society, 6</em>(1), 1–13.
+            </li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad section-line" id="section5">
+      <div class="container response-stack">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Section 5</div>
+            <h2>Policy and legal frameworks</h2>
+          </div>
+          <p class="section-note">Regional legal and regulatory references used in the response section.</p>
+        </div>
+
+        <div class="country-grid">
+          <article class="source-list-panel reveal">
+            <div class="panel-kicker">Europe</div>
+            <ol class="ref-list">
+              <li>
+                European Parliament and the Council of the European Union. (2016).
+                <em>Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)</em>.
+                <em>Official Journal of the European Union, L 119/1</em>.
+              </li>
+              <li>
+                European Parliament and the Council of the European Union. (2019).
+                <em>Directive (EU) 2019/790 on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC</em>.
+                <em>Official Journal of the European Union, L 130/92</em>.
+              </li>
+              <li>
+                European Parliament and the Council of the European Union. (2022).
+                <em>Regulation (EU) 2022/1925 on contestable and fair markets in the digital sector and amending Directives (EU) 2019/1937 and (EU) 2020/1828 (Digital Markets Act)</em>.
+                <em>Official Journal of the European Union, L 265/1</em>.
+              </li>
+            </ol>
+          </article>
+
+          <article class="source-list-panel reveal">
+            <div class="panel-kicker">China</div>
+            <ol class="ref-list">
+              <li>
+                全国人民代表大会常务委员会. (2017).
+                <em>中华人民共和国网络安全法</em> [<em>Cybersecurity Law of the People's Republic of China</em>].
+              </li>
+              <li>
+                全国人民代表大会常务委员会. (2021).
+                <em>中华人民共和国数据安全法</em> [<em>Data Security Law of the People's Republic of China</em>].
+              </li>
+              <li>
+                全国人民代表大会常务委员会. (2021).
+                <em>中华人民共和国个人信息保护法</em> [<em>Personal Information Protection Law of the People's Republic of China</em>].
+              </li>
+              <li>
+                国家互联网信息办公室. (2023).
+                <em>生成式人工智能服务管理暂行办法</em> [<em>Interim Measures for the Management of Generative Artificial Intelligence Services</em>].
+                中华人民共和国国家互联网信息办公室令第15号.
+              </li>
+            </ol>
+          </article>
+
+          <article class="source-list-panel reveal">
+            <div class="panel-kicker">United States</div>
+            <ol class="ref-list">
+              <li>
+                The White House. (2023, October 30).
+                <em>Executive Order 14110 on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence</em>.
+                <em>Federal Register, 88</em>(210), 75191–75229.
+              </li>
+              <li>
+                California State Legislature. (2024).
+                <em>SB-1047 Safe and Secure Innovation for Frontier Artificial Intelligence Models Act</em>.
+              </li>
+            </ol>
+          </article>
+        </div>
+
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p></p>
+      <a href="index.html#sources">Back to main page</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
